@@ -8,7 +8,7 @@ const Header = ({ switcher, mode}) => {
       <h1 className="text-2xl dark:text-white">Where In The World</h1>
       <div className="flex align-middle w-[140px] items-center justify-between">
         <div>
-          {mode ? <MdOutlineWbSunny  className="text-2xl"/> : <FaMoon className="text-2xl"/>}
+          {mode ? <MdOutlineWbSunny  className="text-2xl text-white"/> : <FaMoon className="text-2xl"/>}
         </div>
         <h3 onClick={switcher} className="text-xl hover:cursor-pointer dark:text-white">{mode ? 'Light Mode' : 'Dark Mode' }</h3>
       </div>  
